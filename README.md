@@ -49,7 +49,10 @@ Used Python 3.6 for the implementation.
 #### Congratulations!
 ##### Your Kafka-MySQL pipeline is running
 
-# MySQL scripts
-`StoredProcedure.sql` includes the hourly margin aggregator `hourly_margin_aggregation`()
 
-`EventScheduler.sql` includes event that runs the procedure **every 1hour at 00:00**
+# MySQL scripts 
+Content of `sql_scripts` folder
+
+- `StoredProcedure.sql` includes the creation of a stored hourly margin aggregator `hourly_margin_aggregation`()
+
+- `EventScheduler.sql` includes event creation that runs the procedure **every 1hour at 00:00**
